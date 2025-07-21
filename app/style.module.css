@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    position: fixed;
+    top: 0;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    min-width: 1120px;
+    flex: 0.9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImg {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.siteName {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItems {
+    display: flex;
+}
+
+.menuItem {
+    display: flex;
+    font-size: 22px;
+    height: 48px;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem:hover {
+    font-weight: bold;
+}
+
+.menuItem:not(:last-child) {
+    margin-right: 8px;
+}
+
+.buttonRow {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    font-weight: bold;
+    width: 80px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loginButton {
+    margin-right: 16px;
+}
+
+.joinButton {
+    border-radius: 8px;
+    background-color: gray;
+}

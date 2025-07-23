@@ -14,7 +14,7 @@ const menuItem: menuItemType[] = [
   { name: '리뷰', url: '/reivew' },
 ]
 
-export default function Home({data: []}) {
+export default function Home({}) {
   return (
     <div className={style.main}>
       <nav className={style.nav}>
@@ -43,10 +43,8 @@ export default function Home({data: []}) {
           </div>
           <div className={style.buttonRow}>
             <div 
-              onClick={()=>alert('로그인')}
               className={`${style.button} ${style.loginButton}`}>Login</div>  
             <div 
-              onClick={()=>alert('가입')}
               className={`${style.button} ${style.joinButton}`}>Join</div>  
           </div>
         </div>
